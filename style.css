@@ -1,0 +1,147 @@
+div{
+	display: block;
+}
+body{
+	color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.pro{
+	text-decoration: underline;
+}
+
+.top-container{
+	    background-color: #e4f9f5;
+	    position: relative;
+	    padding-top: 100px;
+
+}
+.top-cloud{
+	position: absolute;
+	right: 300px;
+	top: 40px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+h1{
+	color: #66bfbf;
+	font-size: 5.625rem;
+	margin: 50px auto 0 auto;
+	font-family: "Sacramento", cursive;
+
+}
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.pic{
+	margin-top: 120px;
+	border-radius: 50%;
+
+}
+h2{
+	color: #66bfbf;
+	font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.intro{
+	width: 20%;
+	margin: auto;
+}
+p{
+	line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+hr{
+
+    border: dotted #eaf6f6 8px;
+    border-bottom: none;
+    width: 8%;
+    margin: 100px auto;
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    background: #11cdd4;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e); 
+    margin-top: 50px;
+    transition-duration: 0.4s; 
+}
+
+ button:hover{
+            background: #66bfbf;
+            border: 1px solid black;
+            color: black;
+        }
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin-top: 80px;
+}
+.footer-link{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
